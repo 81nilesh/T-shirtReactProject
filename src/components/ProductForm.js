@@ -33,7 +33,7 @@ const ProductForm = ({ onAddProduct }) => {
     <form className={classes.form} onSubmit={submitHandler}>
       <input
         type="text"
-        placeholder="Candy Name"
+        placeholder="T-shirt Name"
         value={productName}
         onChange={(e) => setProductName(e.target.value)}
         required
