@@ -29,7 +29,7 @@ const Dashboard = () => {
 
   return (
     <div className={classes.dashboard}>
-      <h1>Candy Store</h1>
+      <h1>T-shirt Store</h1>
       <ProductForm onAddProduct={addProductHandler} />
       <div id="productList">
         {products.map((product, index) => (

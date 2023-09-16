@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <header>
-        <h1>Your Store</h1>
+        <h1>Your T-shirt Store</h1>
         <Cart /> {/* Display the Cart component in the header */}
       </header>
       <Dashboard />
