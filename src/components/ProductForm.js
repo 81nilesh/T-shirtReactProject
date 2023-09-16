@@ -52,13 +52,13 @@ const ProductForm = ({ onAddProduct }) => {
         onChange={(e) => setProductColor(e.target.value)}
         required
       />
-      {/* <input
+      <input
         type="text"
         placeholder="Size"
         value={productSize}
         onChange={(e) => setProductSize(e.target.value)}
         required
-      /> */}
+      />
       <button type="submit">Add Product</button>
     </form>
   );
